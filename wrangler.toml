@@ -1,0 +1,8 @@
+name = "scomm-well-known-worker"
+type = "javascript"
+account_id = "f67e3bb9f91ea897b3450d04b74f4b18"
+workers_dev = true
+compatibility_date = "2024-01-01"
+
+[env.production]
+name = "scomm-well-known-worker"
