@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>scomm.ai Public Endpoint</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body {
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background: #f5f7fb;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 760px;
+    margin: 80px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+h1 {
+    margin-top: 0;
+}
+
+code {
+    background: #f0f0f0;
+    padding: 4px 6px;
+    border-radius: 4px;
+}
+
+ul {
+    line-height: 1.8;
+}
+
+.footer {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #666;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>scomm.ai Public Endpoint</h1>
+
+<p>
+This domain is used for <strong>OAuth redirects</strong> and
+<strong>mobile app link verification</strong> for the
+<strong>scomm.ai communication platform</strong>.
+</p>
+
+<h2>Well-Known Resources</h2>
+
+<p>
+These files allow Android and iOS devices to securely verify
+ownership of this domain and route HTTPS links into the app.
+</p>
+
+<ul>
+<li>
+<a href="/.well-known/assetlinks.json">
+/.well-known/assetlinks.json
+</a>
+<br>
+Android App Links verification
+</li>
+
+<li>
+<a href="/.well-known/apple-app-site-association">
+/.well-known/apple-app-site-association
+</a>
+<br>
+Apple Universal Links verification
+</li>
+</ul>
+
+<h2>OAuth Redirect Endpoints</h2>
+
+<p>
+The following paths are used as OAuth redirect URIs:
+</p>
+
+<ul>
+<li><code>/oauth2/google</code></li>
+<li><code>/oauth2/microsoft</code></li>
+<li><code>/oauth2/yahoo</code></li>
+<li><code>/oauth2/imap</code></li>
+</ul>
+
+<p>
+When opened on a supported device, these URLs automatically
+launch the scomm application using secure deep linking.
+</p>
+
+<div class="footer">
+<p>
+If you reached this page manually, you probably meant to open
+the scomm application.
+</p>
+
+<p>
+Learn more at:
+<a href="https://scomm.ai">https://scomm.ai</a>
+</p>
+</div>
+
+</div>
+
+</body>
+</html>
