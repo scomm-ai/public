@@ -4,9 +4,7 @@
     "details": [
       {
         "appID": "WA7GC3J8GA.ai.scomm.mail",
-        "paths": [
-          "/oauth2/*"
-        ]
+        "paths": ["/oauth2/*"]
       }
     ]
   }
