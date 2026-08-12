@@ -1,0 +1,33 @@
+{
+  "formatVersion": 1,
+  "manifestVersion": "2026.08.12",
+  "signatureKeyId": "models-k1",
+  "signatureAlgorithm": "Ed25519",
+  "signature": "<base64 Ed25519 signature>",
+  "models": [
+    {
+      "id": "moonshine-base-encoder",
+      "kind": "asr",
+      "filename": "encoder_model.onnx",
+      "url": "https://public.scomm.ai/…/encoder_model.onnx",
+      "sha256": "<64 hex chars>",
+      "bytes": 12345678
+    },
+    {
+      "id": "moonshine-base-decoder",
+      "kind": "asr",
+      "filename": "decoder_model.onnx",
+      "url": "https://public.scomm.ai/…/decoder_model.onnx",
+      "sha256": "<64 hex chars>",
+      "bytes": 12345678
+    },
+    {
+      "id": "minilm-l6-v2",
+      "kind": "embedding",
+      "filename": "all-MiniLM-L6-v2.onnx",
+      "url": "https://public.scomm.ai/…/all-MiniLM-L6-v2.onnx",
+      "sha256": "<64 hex chars>",
+      "bytes": 12345678
+    }
+  ]
+}
